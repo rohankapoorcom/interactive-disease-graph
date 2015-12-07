@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Interactive Disease Map</title>
-        <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
         <style type="text/css">
         
         </style>
@@ -23,34 +23,33 @@
             var colors = d3.scale.category10();
 
             var dataset = {
-
-            nodes: [
-            {name: "Diabetes"},
-            {name: "Dementia"},
-            {name: "Asthma"},
-            {name: "Parkinson's"},
-            {name: "Platelet Defect"},
-            {name: "Obesity"},
-            {name: "Hepatitis A"},
-            {name: "Cancer"},
-            {name: "Hepatitis B"},
-            {name: "Swine Flu"}
-            ],
-            edges: [
-            {source: 0, target: 1},
-            {source: 0, target: 2},
-            {source: 0, target: 3},
-            {source: 0, target: 4},
-            {source: 1, target: 5},
-            {source: 2, target: 5},
-            {source: 2, target: 5},
-            {source: 3, target: 4},
-            {source: 5, target: 8},
-            {source: 5, target: 9},
-            {source: 6, target: 7},
-            {source: 7, target: 8},
-            {source: 8, target: 9}
-            ]
+                nodes: [
+                    {name: "Diabetes"},
+                    {name: "Dementia"},
+                    {name: "Asthma"},
+                    {name: "Parkinson's"},
+                    {name: "Platelet Defect"},
+                    {name: "Obesity"},
+                    {name: "Hepatitis A"},
+                    {name: "Cancer"},
+                    {name: "Hepatitis B"},
+                    {name: "Swine Flu"}
+                ],
+                edges: [
+                    {source: 0, target: 1},
+                    {source: 0, target: 2},
+                    {source: 0, target: 3},
+                    {source: 0, target: 4},
+                    {source: 1, target: 5},
+                    {source: 2, target: 5},
+                    {source: 2, target: 5},
+                    {source: 3, target: 4},
+                    {source: 5, target: 8},
+                    {source: 5, target: 9},
+                    {source: 6, target: 7},
+                    {source: 7, target: 8},
+                    {source: 8, target: 9}
+                ]
             };
 
          
